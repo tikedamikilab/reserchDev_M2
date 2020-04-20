@@ -7,8 +7,8 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 current_dir = path.dirname(__file__)
-input_text = open(path.join(current_dir, 'titles.txt'), 'r').read()
-# input_text = open(path.join(current_dir, 'documents.txt'), 'r').read()
+# input_text = open(path.join(current_dir, 'titles.txt'), 'r', encoding="utf-8").read()
+input_text = open(path.join(current_dir, 'documents.txt'), 'r', encoding="utf-8").read()
 documents = input_text.split("|")
 
 def words(text):
@@ -26,7 +26,6 @@ def words(text):
             out_words.append(node.surface)
         node = node.next
     return out_words
-
 
 def vecs_array(documents):
     """
