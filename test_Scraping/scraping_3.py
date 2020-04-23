@@ -1,15 +1,15 @@
-from urllib import request  # urllib.requestモジュールをインポート
-from bs4 import BeautifulSoup  # BeautifulSoupクラスをインポート
+import pandas as pd
+from datetime import datetime as dt
 
-url = 'https://codeforces.com/problemset/status/4/problem/A/page/2'
-response = request.urlopen(url)
-soup = BeautifulSoup(response)
-response.close()
+url = 'https://finance.yahoo.com/quote/AAPL/history?p=AAPL&.tsrc=fin-srch'
 
-# 得られたsoupオブジェクトを操作していく
+data = pd.read_html(url, header = 0)
+data[0].dropna(inplace = True)
+#print(data[0].tail())
 
-allProblem = soup.find_all('a', class_ = 'view-source')
-#print(findid_all[0])
-for item in findid_all:
-    findid = item.text
-    print(findid)
+#data[0]["Date2"] = [dt.strptime(i, '%b %d, %Y') for i in data[0]["Date"]]
+#print(data[0].tail())
+#data[0].set_index("Date2", inplace=True)
+
+#string_date_1 = 'Apr 23, 2020'
+#print(dt.strptime(string_date_1, '%b %d, %Y'))
