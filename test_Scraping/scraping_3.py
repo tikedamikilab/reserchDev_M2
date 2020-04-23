@@ -1,6 +1,8 @@
 import pandas as pd
 from datetime import datetime as dt
 import time
+from urllib import request  # urllib.requestモジュールをインポート
+from bs4 import BeautifulSoup  # BeautifulSoupクラスをインポート
 
 #url = 'https://finance.yahoo.com/quote/AAPL/history?p=AAPL&.tsrc=fin-srch'
 baseurl = 'https://codeforces.com/problemset/'
