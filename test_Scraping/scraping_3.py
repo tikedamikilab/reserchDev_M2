@@ -1,15 +1,27 @@
+import pandas as pd
+from datetime import datetime as dt
+import time
 from urllib import request  # urllib.requestモジュールをインポート
 from bs4 import BeautifulSoup  # BeautifulSoupクラスをインポート
 
-url = 'https://codeforces.com/problemset/status/4/problem/A/page/2'
-response = request.urlopen(url)
-soup = BeautifulSoup(response)
-response.close()
+#url = 'https://finance.yahoo.com/quote/AAPL/history?p=AAPL&.tsrc=fin-srch'
+baseurl = 'https://codeforces.com/problemset/'
+status = "451"
+problem = "A"
+page = str(1)
 
-# 得られたsoupオブジェクトを操作していく
+for i in range(1,10):
+    page = str(i)
+    url = baseurl + "status/" + status + "/problem/" + problem + "/page/" + page
+    print(url)
 
-allProblem = soup.find_all('a', class_ = 'view-source')
-#print(findid_all[0])
-for item in findid_all:
-    findid = item.text
-    print(findid)
+    data = pd.read_html(url, header = 0)
+    data[0].dropna(inplace = True)
+
+    data[0]["datetime"] = [dt.strptime(i, '%b/%d/%Y %H:%M') for i in data[0]["When"]]
+    data[0].to_csv("status"+ status + "_problem" + problem + ".csv", header=False, mode='a')
+
+#data[0].set_index("Date2", inplace=True)
+#print(data[0]["datetime"].head())
+#string_date_1 = 'Apr 23, 2020'
+#print(dt.strptime(string_date_1, '%b %d, %Y'))
