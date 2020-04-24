@@ -4,9 +4,9 @@ import time
 from urllib import request  # urllib.requestモジュールをインポート
 from bs4 import BeautifulSoup  # BeautifulSoupクラスをインポート
 
-#url = 'https://finance.yahoo.com/quote/AAPL/history?p=AAPL&.tsrc=fin-srch'
+#ここから問題を選択してidを集める
 baseurl = 'https://codeforces.com/problemset/'
-status = "451"
+status = "4"
 problem = "A"
 page = str(1)
 
@@ -19,7 +19,7 @@ for i in range(1,10):
     data[0].dropna(inplace = True)
 
     data[0]["datetime"] = [dt.strptime(i, '%b/%d/%Y %H:%M') for i in data[0]["When"]]
-    data[0].to_csv("status"+ status + "_problem" + problem + ".csv", header=False, mode='a')
+    data[0].to_csv("sample_status"+ status + "_problem" + problem + ".csv", header=False, index=False, mode='a')
 
 #data[0].set_index("Date2", inplace=True)
 #print(data[0]["datetime"].head())
