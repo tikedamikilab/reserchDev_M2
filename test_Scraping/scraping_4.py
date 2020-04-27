@@ -2,6 +2,9 @@
 # 
 # 以下の形式のcsvがいる
 # 65612362,Nov/24/2019 03:24,deodeo,4A - Watermelon,Perl,Accepted,92 ms,0 KB,2019-11-24 03:24:00
+#
+# 複数回acがあるときは，最後のac
+# -*- coding:utf8  -*-
 
 from datetime import datetime as dt
 import time
@@ -27,16 +30,22 @@ driver = webdriver.Chrome('C:\Program Files\Chrome Driver\chromedriver',options=
 
 baseurl = 'https://codeforces.com/problemset/'
 
-with open('sample_status4_problemA.csv') as f:
+#ここから問題を選択してidを集める
+#################################
+#手書き
+submission = "1329"
+page = "A"
+#################################
+
+author = ""
+
+with open('sample_status'+submission+'_problem'+page+'.csv') as f:
     reader = csv.reader(f)
     for row in reader:
-        #ここから問題を選択してidを集める
-        #################################
-        #手書き
-        submission = "4"
-        page = "A"
-        #################################
+        if author == row[3]:
+            continue
         submissionid = row[0]
+        author = row[3]
         url = baseurl + "submission/" + submission + "/" + submissionid
         print(url)
         driver.get(url)  
@@ -45,16 +54,18 @@ with open('sample_status4_problemA.csv') as f:
         soup = BeautifulSoup(driver.page_source, features="html.parser")
 
         text = [n.get_text() for n in soup.select('ol li span')]
+        sleep(1)
         el = [n['class'] for n in soup.select('ol li span')]
-
+        sleep(1)
         elflat = list(itertools.chain.from_iterable(el))
 
         strtext = ' '.join(text)
         strel = ' '.join(elflat)
         countel = len(elflat)
         elli = [n for n in soup.select('ol li')]
+        sleep(1)
         countlen = len(elli)
 
-        with open('source_submission' + submission +'_page'+page+'.csv', 'a',newline='') as f:
+        with open('source_submission' + submission +'_page'+page+'.csv', 'a',newline='',encoding="utf-8") as f:
             writer = csv.writer(f)
-            writer.writerow([submissionid, row[8], row[2], row[3],row[4],row[5],row[6],row[7],countlen, countel, strtext, strel])
+            writer.writerow([submissionid, row[8], row[2], row[3],row[4],row[5],countlen, countel, strtext, strel])
