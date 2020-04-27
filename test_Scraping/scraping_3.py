@@ -1,3 +1,6 @@
+# scraping3
+# submitrリストを取得する
+
 import pandas as pd
 from datetime import datetime as dt
 import time
@@ -6,7 +9,7 @@ from bs4 import BeautifulSoup  # BeautifulSoupクラスをインポート
 
 #ここから問題を選択してidを集める
 baseurl = 'https://codeforces.com/problemset/'
-status = "4"
+status = "1329"
 problem = "A"
 page = str(1)
 

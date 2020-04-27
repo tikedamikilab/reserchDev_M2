@@ -7,7 +7,7 @@ options = Options()
 options.add_argument('--headless')
 driver = webdriver.Chrome('C:\Program Files\Chrome Driver\chromedriver',options=options)
 error_flg = False
-target_url = 'https://codeforces.com/problemset/status/4/problem/A/'
+target_url = 'https://codeforces.com/problemset/status/1329/problem/A/'
 driver.get(target_url)  
 sleep(1)
 try:
