@@ -13,7 +13,11 @@ status = "4"
 problem = "A"
 page = str(1)
 
+<<<<<<< HEAD
 for i in range(1,100):
+=======
+for i in range(1,5):
+>>>>>>> 微調整
     page = str(i)
     url = baseurl + "status/" + status + "/problem/" + problem + "/page/" + page
     print(url)
