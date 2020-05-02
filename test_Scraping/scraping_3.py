@@ -1,5 +1,5 @@
 # scraping3
-# submitrリストを取得する
+# submitリストを取得する
 
 import pandas as pd
 from datetime import datetime as dt
