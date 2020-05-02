@@ -33,19 +33,20 @@ baseurl = 'https://codeforces.com/problemset/'
 #ここから問題を選択してidを集める
 #################################
 #手書き
-submission = "1329"
+submission = "4"
 page = "A"
 #################################
 
 author = ""
 
-with open('sample_status'+submission+'_problem'+page+'.csv') as f:
+with open('./datasets/python_status'+submission+'_problem'+page+'.csv',encoding="utf-8") as f:
     reader = csv.reader(f)
     for row in reader:
-        if author == row[3]:
+        if author == row[2]:
+            print(row[2])
             continue
         submissionid = row[0]
-        author = row[3]
+        author = row[2]
         url = baseurl + "submission/" + submission + "/" + submissionid
         print(url)
         driver.get(url)  
@@ -66,6 +67,6 @@ with open('sample_status'+submission+'_problem'+page+'.csv') as f:
         sleep(1)
         countlen = len(elli)
 
-        with open('source_submission' + submission +'_page'+page+'.csv', 'a',newline='',encoding="utf-8") as f:
+        with open('pyhton_source_submission' + submission +'_page'+page+'.csv', 'a',newline='',encoding="utf-8") as f:
             writer = csv.writer(f)
-            writer.writerow([submissionid, row[8], row[2], row[3],row[4],row[5],countlen, countel, strtext, strel])
+            writer.writerow([submissionid, row[8], row[2], row[3],row[4],row[5],countlen, countel, strtext, strel,row[6], row[7]])
