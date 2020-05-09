@@ -1,3 +1,5 @@
+# cosSimilariyEn
+
 import os
 import sys
 import time
@@ -13,8 +15,7 @@ import csv
 #DATASET_FILE_PATH = "./datasets/uci-news-aggregator.csv"
 #RESULT_FILE_PATH = "./output/similarity_calc_result.csv"
 
-DATASET_FILE_PATH = "./datasets/pythonTop2.csv"
-RESULT_FILE_PATH = "./output/cossimilarity_sample.csv"
+DATASET_FILE_PATH = "./datasets_source/python_testdata5.csv"
 
 dataset = pandas.read_csv(DATASET_FILE_PATH)
 dataset = dataset[0:10000]
@@ -23,7 +24,7 @@ confidence = 0.0
 
 # calculate tf_idf
 # ソースコード
-input_dataset = numpy.array(dataset["token"])
+input_dataset = numpy.array(dataset["source"])
 #設定
 tf_idf_vectorizer = TfidfVectorizer(analyzer="word", ngram_range=(1, 3), min_df=1, stop_words="english")
 #cipy.sparse.csr.csr_matrix型の出力

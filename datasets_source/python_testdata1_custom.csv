@@ -1,0 +1,11 @@
+len,word,source,custom
+1,16,"print ( ""YNEOS"" [ 2 ** int ( input ())% 24 < 9 :: 2 ])",
+1,14,print ( 'YNEOS' [(- 2 )** int ( input ())< 5 :: 2 ]),
+1,16,print ( 'YNEOS' [ 2 ** int ( input ())% 24 < 9 :: 2 ]),
+1,14,"print ([ ""NO"" , ""YES"" ][(- 2 )** int ( input ())> 4 ])",
+1,14,"print ([ 'NO' , 'YES' ][(- 2 )** int ( input ())> 4 ])",
+1,16,"print ([ ""YES"" , ""NO"" ][ max ( int ( input ()), 3 )& 1 ])",
+1,18,"print ( ""YNEOS"" [ pow ( 2 , int ( input ()), 24 )< 9 :: 2 ])",
+1,17,"print ([ ""NO"" , ""YES"" ][(- 2 )** int ( input ())   >   4 ])",
+2,20,"n = int ( input ()) print ( ""YNEOS"" [ 2 ** n % 24 < 9 :: 2 ])",
+1,19,"print ([ ""NO""   ,   ""YES"" ][(- 2 )** int ( input ())   >   4 ])",

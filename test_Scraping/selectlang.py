@@ -1,8 +1,12 @@
+
+# row[4]languageが入っているcsvが前提
+# scraping_3.pyの次，langurageを指定するときに
+#
 import csv
 
 #######################
 language = "Python 3"
-submission = "4"
+submission = "977"
 page = "A"
 #######################
 

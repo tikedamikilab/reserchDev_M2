@@ -1,0 +1,11 @@
+id,day,author,problem,language,ac,len,word,source,token,time,memory
+23413326,2016-12-30 08:52:00,r.mustapha.amine,4A - Watermelon,Python 3,Accepted,1,16,"print ( ""YNEOS"" [ 2 ** int ( input ())% 24 < 9 :: 2 ])",kwd pun str pun lit pun pln pun pln pun lit pun lit pun lit pun,154 ms,4500 KB
+42820225,2018-09-13 08:50:00,abhichomal,4A - Watermelon,Python 3,Accepted,1,14,print ( 'YNEOS' [(- 2 )** int ( input ())< 5 :: 2 ]),kwd pun str pun lit pun pln pun pln pun lit pun lit pun,248 ms,0 KB
+52421801,2019-04-06 20:27:00,Rabi02,4A - Watermelon,Python 3,Accepted,1,16,print ( 'YNEOS' [ 2 ** int ( input ())% 24 < 9 :: 2 ]),kwd pun str pun lit pun pln pun pln pun lit pun lit pun lit pun,278 ms,0 KB
+71756642,2020-02-24 13:15:00,amitbhosale1234567890,4A - Watermelon,Python 3,Accepted,1,14,"print ([ ""NO"" , ""YES"" ][(- 2 )** int ( input ())> 4 ])",kwd pun str pun str pun lit pun pln pun pln pun lit pun,248 ms,0 KB
+73000556,2020-03-12 09:49:00,channdankumarjha,4A - Watermelon,Python 3,Accepted,1,14,"print ([ 'NO' , 'YES' ][(- 2 )** int ( input ())> 4 ])",kwd pun str pun str pun lit pun pln pun pln pun lit pun,218 ms,300 KB
+43941773,2018-10-07 14:47:00,Cathos,4A - Watermelon,Python 3,Accepted,1,16,"print ([ ""YES"" , ""NO"" ][ max ( int ( input ()), 3 )& 1 ])",kwd pun str pun str pun pln pun pln pun pln pun lit pun lit pun,248 ms,0 KB
+30301291,2017-09-13 10:41:00,winstontsai,4A - Watermelon,Python 3,Accepted,1,18,"print ( ""YNEOS"" [ pow ( 2 , int ( input ()), 24 )< 9 :: 2 ])",kwd pun str pun pln pun lit pun pln pun pln pun lit pun lit pun lit pun,124 ms,0 KB
+71758880,2020-02-24 14:06:00,amitbhosale1234567890,4A - Watermelon,Python 3,Accepted,1,17,"print ([ ""NO"" , ""YES"" ][(- 2 )** int ( input ())   >   4 ])",kwd pun str pun str pun lit pun pln pun pln pun pln pun pln lit pun,248 ms,0 KB
+23413315,2016-12-30 08:51:00,r.mustapha.amine,4A - Watermelon,Python 3,Accepted,2,20,"n = int ( input ()) print ( ""YNEOS"" [ 2 ** n % 24 < 9 :: 2 ])",pln pun pln pun pln pun kwd pun str pun lit pun pln pun lit pun lit pun lit pun,124 ms,4500 KB
+32086190,2017-11-06 04:52:00,KanhuKeNanu,4A - Watermelon,Python 3,Accepted,1,19,"print ([ ""NO""   ,   ""YES"" ][(- 2 )** int ( input ())   >   4 ])",kwd pun str pln pun pln str pun lit pun pln pun pln pun pln pun pln lit pun,124 ms,0 KB
