@@ -1,8 +1,10 @@
+# scraping4.pyの実行結果から重複したコードを削除する
+#
 import csv
 
 #######################
 language = "Python 3"
-submission = "4"
+submission = "977"
 page = "A"
 #######################
 
