@@ -6,11 +6,11 @@ import csv
 
 #######################
 language = "Python 3"
-submission = "977"
+submission = "1348"
 page = "A"
 #######################
 
-with open('./datasets/sample_status'+submission+'_problem'+page+'.csv',encoding="utf-8") as f:
+with open('./datasets/status'+submission+'_problem'+page+'.csv',encoding="utf-8") as f:
     reader = csv.reader(f)
     for row in reader:
         if row[4] == language:

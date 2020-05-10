@@ -33,7 +33,7 @@ baseurl = 'https://codeforces.com/problemset/'
 #ここから問題を選択してidを集める
 #################################
 #手書き
-submission = "977"
+submission = "1348"
 page = "A"
 #################################
 
@@ -55,16 +55,16 @@ with open('./datasets/python_status'+submission+'_problem'+page+'.csv',encoding=
         soup = BeautifulSoup(driver.page_source, features="html.parser")
 
         text = [n.get_text() for n in soup.select('ol li span')]
-        sleep(1)
+        sleep(0.2)
         el = [n['class'] for n in soup.select('ol li span')]
-        sleep(1)
+        sleep(0.2)
         elflat = list(itertools.chain.from_iterable(el))
 
         strtext = ' '.join(text)
         strel = ' '.join(elflat)
         countel = len(elflat)
         elli = [n for n in soup.select('ol li')]
-        sleep(1)
+        sleep(0.2)
         countlen = len(elli)
 
         with open('python_source_submission' + submission +'_page'+page+'.csv', 'a',newline='',encoding="utf-8") as f:

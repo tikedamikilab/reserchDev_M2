@@ -9,11 +9,11 @@ from bs4 import BeautifulSoup  # BeautifulSoupクラスをインポート
 
 #ここから問題を選択してidを集める
 baseurl = 'https://codeforces.com/problemset/'
-status = "977"
+status = "1348"
 problem = "A"
 page = str(1)
 
-for i in range(1,5):
+for i in range(1,409):
     page = str(i)
     url = baseurl + "status/" + status + "/problem/" + problem + "/page/" + page
     print(url)
