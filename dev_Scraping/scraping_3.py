@@ -16,7 +16,7 @@ from bs4 import BeautifulSoup  # BeautifulSoupクラスをインポート
 # problem = "A"
 # page = str(1)
 
-def makesolvedcsv(status, problem = 'A', max = 1, folder = "sample_datasets_problemSolved"):
+def makesolvedcsv(status, problem = 'A', max = 1, folder = "sample_scraping3"):
     for i in range(1,max+1):
         page = str(i)
         baseurl = 'https://codeforces.com/problemset/'
@@ -34,4 +34,4 @@ def makesolvedcsv(status, problem = 'A', max = 1, folder = "sample_datasets_prob
 
 if __name__ == '__main__':
     for i in range(1000):
-        makesolvedcsv(i, max=5, problem='B')
+        makesolvedcsv(i, max=5, problem='C')

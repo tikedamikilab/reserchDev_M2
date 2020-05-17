@@ -9,9 +9,9 @@
 
 import csv
 
-def selectlang(submission, page='A',language = 'Python 3', outputfilename = 'selectlang2'):
+def selectlang(submission, page='A',language = 'Python 3',outputfilename = 'selectlang2'):
     try:
-        with open('./datasets_problemSolved/sample_status'+str(submission)+'_problem'+page+'.csv',encoding="utf-8") as f:
+        with open('./datasets_problemB/sample_status'+str(submission)+'_problem'+page+'.csv',encoding="utf-8") as f:
             reader = csv.reader(f)
             for row in reader:
                 if row[4] == language:
@@ -25,5 +25,5 @@ def selectlang(submission, page='A',language = 'Python 3', outputfilename = 'sel
 
 if __name__ == '__main__':
     for i in range(1000):
-        selectlang(i)
+        selectlang(i, page='B')
     print("fin")
