@@ -34,4 +34,4 @@ def makesolvedcsv(status, problem = 'A', max = 1, folder = "sample_datasets_prob
 
 if __name__ == '__main__':
     for i in range(1000):
-        makesolvedcsv(i, max=5)
+        makesolvedcsv(i, max=5, problem='B')
