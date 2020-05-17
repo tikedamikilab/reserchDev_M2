@@ -38,7 +38,7 @@ submission = ""
 page = "A"
 #################################
 
-with open('./datasets/python_selectB.csv',encoding="utf-8") as f:
+with open('./datasets/python_selectC.csv',encoding="utf-8") as f:
     reader = csv.reader(f)
     for row in reader:
         submission = row[9]
