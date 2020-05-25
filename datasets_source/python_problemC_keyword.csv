@@ -1,0 +1,571 @@
+submission,keyword
+1, from import for in for in for in def return if else
+2, def def for in for in return for in while if elif elif elif else return if else None if and in for in if is not None
+3, in in if not in or or elif elif else
+4, for in if else
+5, for in if elif if else if elif else
+6, while if else
+7, def if not return return if else
+9, while
+10, for in for in for in
+12, lambda for in for in for in
+13, import for in
+14, for in if and if and for in if for in else
+15, def if return if return if return return for in if else
+16, import for in
+18, for in for in
+19, def while if return for in for in for in def if elif return while for in if continue if and break
+20, from import for in for in while for in if if else while
+21, from import for in if else not for in if
+22, if or for in for in for in if if
+23, while for in True if else
+24, for in for in
+26, False if and if True for in for in for in for in if elif elif else if for in if else if for in for in for in
+27, for in if
+29, from import for in for in if while
+30, for in lambda for in for in if
+33, for in
+34, for in for in if not in elif not in
+37, for in for in for in for in while if else
+38, lambda for in for in
+40, def while for in yield for in def return def for in if return for in if return for in if return for in return def for in if return for in return def for in if return if for in if return if for in if return for in if return for in return def return def if return if return if return def if return else return
+42, def def while True False for in while if and elif elif True if not break while in if
+43, for in
+44, for in for in while and if else
+45, import for in for in for in if while if or continue if if if and and
+46, for in
+47, from import for in for in if or continue elif or continue elif or or continue elif or continue else for in for in if else
+48, import def while for in yield for in for in for in if else
+50, for in if if if if
+51, while if if break else if break
+53, for in if else
+54, import def if return if else while return for in for in for in for in
+55, False while if True if else
+56, def while for in if return for in if in if else
+57, for in for in
+58, for in
+59, for in if pass elif elif else for in if not in for in if and for in
+61, def if return else return def while for in return if else
+63, import for in def if return False for in for in if for in if in if or return False return True for in if if break if elif else
+65, import import import def lambda lambda return def for in for in lambda if if None for in lambda if else
+66, from import from import for in for in for in for in for in
+69, for in from import for in for in for in for in if for in for in break for in for in
+71, from import for in if for in for in if break if
+75, import for in if for in for in import if else
+78, def if and return True for in if not if or return True return False if else if else
+79, for in def global for in if if and in return False elif and in return False return True for in if for in while True if break for in if if if if
+80, for in def global for in if if and in return False elif and in return False return True for in if for in while True if break for in if if if if
+81, import from import def return def return def return for in if else if else for in for in
+88, import from import def return def return def return for in if else if else for in for in
+90, import from import def return def return def return for in if else if else for in for in
+92, import from import def return def return def return for in if else if else for in for in
+94, import from import def return def return def return for in if else if else for in for in
+95, from import lambda for in for in for in while if if and for in if if or
+96, for in False for in for in for in if for in True for in if not else if if else if else else if else
+99, from import def return lambda for in for in for in if or elif elif if elif elif elif if elif else elif
+102, from import def return lambda for in for in for in if or elif elif if elif elif elif if elif else elif
+103, if for in and and or and or or and
+104, if for in and and or and or or and
+105, with def global None for in if if for in if if return def global for in def global for in while for in if if for in if if for in if return def global while for in if break for in None for in for in False for in if True if for in if lambda for in if lambda for in if lambda else True True True
+106, for in for in for in while
+108, for in for in for in while
+110, for in for in for in while
+112, for in for in for in while
+114, for in for in for in while
+116, for in for in for in while
+120, import lambda for in
+121, def return def if if return if return return if return if return if return if return else return def if return for in if return while if if else for in if and else for in for in if and
+122, def return def if if return if return return if return if return if return if return else return def if return for in if return while if if else for in if and else for in for in if and
+124, def return def if if return if return return if return if return if return if return else return def if return for in if return while if if else for in if and else for in for in if and
+125, for in for in while for in
+128, from import lambda if else
+129, from import lambda if else
+131, from import as for in
+132, for in for in if else if else
+133, for in for in if else if else
+135, for in if if if if else else if if if
+136, for in if if if if else else if if if
+137, for in for in if if
+139, for in for in if if
+140, from import from import for in for in while True for in for in if for in
+141, for in lambda for in if for in
+143, for in lambda for in if for in
+144, for in for in if for in if if if
+146, for in for in if for in if if if
+148, if elif for in elif elif else
+149, for in for in for in
+151, for in for in for in
+152, for in
+155, for in
+156, for in for in for in for in for in
+157, for in for in for in for in for in
+158, for in if else if for in if else
+159, for in for in for in for in for in for in
+161, def global if or return if or or return if return if if if and return if and return if and return if and or and else return
+165, for in if
+166, while
+168, while
+171, for in
+172, from import while for in for in for in for in if for in for in
+174, for in if for in elif for in
+175, for in while if and else
+176, if and else
+180, for in if elif
+181, for in if elif
+186, for in if elif
+189, for in if elif
+190, for in while and and if if else
+193, in for in for in for in in if or if if if or else if or if or for in if break if break if for in for in for in for in for in for in for in for in for in for in for in for in for in for in for in
+195, for in if else if pass elif elif elif else if if else break
+197, for in if
+199, for in if
+202, for in if
+203, lambda for in lambda for in if break for in
+205, lambda for in lambda for in if break for in
+208, lambda for in while lambda def while for in if if return for in if
+214, lambda for in while lambda def while for in if if return for in if
+215, from import def return def if return if return if return if return for in if and return for in for in
+216, for in while or for in for in
+218, for in while or for in for in
+219, for in if for in for in if else else for in if if and
+221, for in if for in for in if else else for in if if and
+223, for in for in for in
+224, for in for in for in
+225, for in for in for in for in for in for in for in for in for in for in for in for in
+227, for in for in for in for in for in for in for in for in for in for in for in for in
+230, for in for in for in for in for in for in for in for in for in for in for in for in
+231, for in while if
+233, for in while if
+234, import for in if else if else for in
+236, import for in if else if else for in
+237, def for in if return for in if and if and if elif else for in
+239, def for in if return for in if and if and if elif else for in
+242, from import for in for in while for in if in and
+244, from import for in for in while for in if in and
+245, if or else for in
+246, for in for in for in for in
+247, for in for in for in for in
+250, for in if for in if else
+252, for in while and
+253, import for in if else if for in elif for in for in if if for in if if
+254, import def return for in for in for in for in for in if for in if and or for in
+257, import from import as for in for in
+259, import from import as for in for in
+260, if for in while if for in
+261, from import as if else for in if if if
+262, lambda True for in if
+263, from import import in def if return None def for in for in for in if if else for in for in if in True False False try while True False if for in for in if and and in break if not raise except pass if
+265, from import import in def if return None def for in for in for in if if else for in for in if in True False False try while True False if for in for in if and and in break if not raise except pass if
+266, for in for in if continue for in if break if break for in if for in for in for in if if continue for in
+268, for in
+270, for in
+271, if else for in for in
+272, for in for in
+275, for in if for in if in
+276, for in if for in for in
+278, for in if for in for in
+279, lambda lambda lambda for in if if for in if
+281, lambda lambda lambda for in if if for in if
+282, or in
+284, or in
+285, for in
+287, for in
+288, while while
+289, while while
+290, for in if break
+291, def return def for in return for in for in for in if if break if else
+294, for in for in if for in
+296, for in for in if for in
+298, for in for in if for in
+299, for in for in if for in
+300, for in while for in for in if in
+305, for in while in
+306, import def return def for in for in return with as as for in for in for in
+313, True while
+315, True while
+317, True while
+318, True while
+319, for in while and del while and del
+322, for in not and not for in if and if else not and and if else not and not or not or True if else
+326, for in not and not for in if and if else not and and if else not and not or not or True if else
+327, for in if in
+334, while
+335, for in for in for in False True False if else False for in if if elif and not else True elif if elif not else True elif if else True
+336, while while True for in if if break for in if
+337, if
+339, for in if while if break for in if and
+340, def return if else for in
+341, def return if else for in
+342, if
+344, if
+350, for in for in for in if if if if else else
+352, for in for in
+353, for in if
+354, while True for in if if break
+355, while True for in if if break
+356, for in if or if if and else if else if if and else if else
+357, for in if or if if and else if else if if and else if else
+358, for in if continue for in if if if
+359, while
+363, for in if and and or and continue
+366, from import for in for in for in if for in for in if if else
+367, import for in for in for in True
+370, for in if for in
+371, lambda while if else
+373, lambda while if else
+376, for in for in for in for in
+379, for in lambda
+381, for in lambda
+382, if if if and for in if if else if or else for in if
+384, if if if and for in if if else if or else for in if
+387, while while and if or and else
+388, for in if True
+394, for in for in for in
+397, for in for in for in
+399, for in for in for in
+400, while for in if for in
+401, if or else for in
+402, for in for in
+404, for in while and or if or break else for in
+405, from import for in if for in if if else else
+408, from import for in if for in if if else else
+411, def return def return and if for in for in elif for in for in else
+412, for in for in if not elif else
+413, for in True for in if else
+415, for in True for in if else
+416, for in for in for in if if for in
+417, for in for in for in if if for in
+424, for in if
+426, for in if
+427, for in for in for in for in if not or not while for in if not for in if not for in if and while while if not in continue if elif
+430, for in for in for in for in if not or not while for in if not for in if not for in if and while while if not in continue if elif
+431, for in for in
+432, def False for in if not True True return lambda for in for in while while
+433, import
+435, if for in for in for in for in for in
+437, lambda for in for in
+439, for in if else while if elif del else while if else if if else for in
+440, for in for in for in
+441, for in for in for in
+442, for in for in for in
+443, for in for in for in
+445, for in for in for in
+447, for in for in for in
+448, import def if return return
+449, from import def for in if not return False return True def while False for in for in if not True if lambda for in if not and not
+450, from import def for in if not return False return True def while False for in for in if not True if lambda for in if not and not
+451, def return or or or def return and for in if else if and else
+452, if else
+454, if else
+456, if else
+459, if for in for in
+460, def for in if return while if else
+461, from import def False for in if if not if lambda else lambda else if if
+462, from import def False for in if if not if lambda else lambda else if if
+464, for in for in for in for in
+465, for in for in for in for in
+466, if else for in if if
+472, for in for in for in if else if
+474, def return def for in for in if return return and and for in for in for in for in for in for in for in if for in if else
+479, for in for in if else
+483, if else if else for in
+485, if else if else for in
+486, for in if if while while if if
+487, if elif for in if else or for in
+488, if elif for in if else or for in
+489, if or else
+492, for in lambda while
+493, for in for in while while and if
+495, import import def if return for in if if if return for in if
+496, for in for in for in if else
+499, for in if
+500, for in while and if
+501, for in for in if while if continue if for in
+507, for in if
+508, lambda for in for in if for in if else
+509, for in while or
+510, for in for in True for in if and if not break if lambda if for in if not while for in if not if and else
+512, for in for in True for in if and if not break if lambda if for in if not while for in if not if and else
+513, for in for in for in for in for in
+514, for in for in for in for in if for in for in if in else
+515, for in
+518, for in if
+520, for in
+521, for in
+522, def return def False for in if and not True lambda if else if in if if lambda lambda if or in else for in
+523, for in if if break for in if if break if else
+524, for in if if break for in if if break if else
+525, for in True if or elif else
+526, import for in if if
+532, import for in if if
+533, if and or and else
+534, lambda for in
+535, lambda for in if else
+538, for in if
+540, from import for in while for in if and and or if and
+541, from import for in while for in if and and or if and
+542, from import from import from import import import import for in while
+545, for in for in if elif if else
+546, lambda while and and if else
+549, lambda for in and or if else and if
+550, import for in if break if
+552, for in if else
+553, class def def if return def if return def return for in if if else if for in
+554, from import for in
+556, from import for in
+557, lambda lambda for in for in if for in if if break for in
+558, for in for in False for in for in if True break if break for in for in if or if break
+567, for in if
+569, for in if
+570, for in True and for in for in
+572, for in True and for in for in
+574, for in True and for in for in
+577, for in True and for in for in
+579, for in True and for in for in
+580, lambda for in for in while if for in if not if
+581, lambda for in for in if
+583, lambda for in for in if
+584, for in if else if def for in if not in return for in if if else else if elif else
+585, import lambda while if if else if or else
+588, import lambda while if if else if or else
+591, import for in if
+592, from import
+593, def None for in if is None else return def for in for in return def assert return def for in if
+594, def None for in if is None else return def for in for in return def assert return def for in if
+595, for in
+596, lambda for in if not in or for in def for in if not in in and in and if or or
+598, from import lambda lambda for in for in for in if
+599, for in not
+600, for in for in if for in for in for in if
+602, for in for in if for in for in for in if
+603, lambda for in while if else if else if else if else if else if else
+609, for in if for in if
+610, for in for in for in for in for in for in
+611, for in for in for in for in for in for in for in for in
+612, for in if if not break if else if else
+613, import from import for in for in if if for in break else else lambda if for in if else for in
+614, import from import for in for in if if for in break else else lambda if for in if else for in
+615, for in if in or in else if in elif in else for in
+617, lambda for in for in
+618, for in for in if break
+620, for in if in else if for in
+621, lambda for in for in for in
+625, for in for in for in
+628, for in if else if else
+631, for in while and for in for in if else for in
+632, from import for in lambda if else
+633, import for in while if elif and in for in
+634, import for in while if elif and in for in
+635, import for in while if elif and in for in
+637, for in for in for in
+644, for in for in for in if
+645, for in if lambda for in while
+648, import def None if and None return for in if in and if return for in if
+649, for in for in for in if else if and if else break
+652, from import def for in for in if if for in if
+653, def if not for in if if or if return else if or if return for in for in if if else for in if in else if
+655, def if not for in if if or if return else if or if return for in for in if if else for in if in else if
+656, lambda if else
+658, lambda if else
+659, lambda while if not in
+660, for in while if
+664, for in while
+665, for in if for in if break else
+670, from import for in
+672, for in if and else if else
+675, for in if not in
+676, for in if else if if else else
+677, for in
+678, from import
+680, if for in if not else
+681, from import for in if elif if else else while and if or
+682, for in for in while if continue for in if
+686, for in for in while if continue for in if
+687, for in for in while if continue for in if
+688, for in for in while if continue for in if
+691, while and while and if if else if
+696, from import lambda if else
+697, def while if return while if else
+701, for in if not in if while
+702, import lambda for in
+703, lambda for in if
+705, lambda for in if
+706, for in if if if if if
+707, if elif else
+709, if elif else
+710, for in for in
+712, while
+713, import for in if
+714, import for in if
+716, import for in if
+717, for in for in
+719, for in for in
+722, for in for in if if if if for in
+723, for in if and else for in for in
+724, for in while if if for in if else if else for in for in if and continue else for in if if else else for in for in if else
+725, for in if in else if else
+727, for in for in
+731, for in for in False for in for in if continue True while if not in for in if continue True for in
+732, for in
+733, lambda def for in if if else while if return for in for in return if else for in if and if and else
+734, for in lambda for in while and if continue
+735, while
+736, while
+737, while
+740, while
+742, def return if else def return for in for in for in if break if if else
+743, if else
+745, def for in if and False return for in for in for in
+746, lambda if
+748, lambda if
+749, for in while for in if and elif and elif elif
+750, for in if else if and else
+752, import for in if in and in or in and in
+753, import import def return for in def for in if elif in return def return and def for in True for in if not False if return def if return if if return for in for in for in for in if return def lambda return def global for in if not break if return False else return True def global for in if and return for in if not
+754, import for in for in for in None if else if and if for in else for in if for in
+755, and for in
+757, from import from import from import def return for in for in for in for in for in
+758, if lambda else lambda
+760, False for in if continue while not True if else if
+761, for in for in if elif else for in for in if continue for in if or continue
+762, while and if while and if while and if and if if else else
+763, while and if while and if while and if and if if else else
+764, while and if while and if while and if and if if else else
+765, if and or and else
+766, lambda for in for in if break
+768, for in if else for in
+769, from import import lambda if None for in None for in if def for in if return def if or or return while not if if if if return lambda for in if and elif and elif and elif and else
+770, from import lambda class def None for in while if continue for in if continue if elif else
+773, from import lambda class def None for in while if continue for in if continue if elif else
+776, lambda for in if for in for in
+777, for in for in for in for in for in for in if for in for in for in if else
+779, lambda for in if
+785, import from import if else
+789, import from import if else
+791, import from import if else
+792, import if if if if for in or
+793, for in if or for in for in for in if if not else if and and else
+794, from import lambda for in
+795, from import lambda for in
+796, from import for in if else for in if else for in for in for in if if if if for in if continue if and else or else if
+797, lambda for in for in while and
+798, while if for in while if break if else
+799, import for in if if else if True True if and else for in for in if break for in if break if break
+801, import for in if if else if True True if and else for in for in if break for in if break if break
+803, if def if return for in for in if for in if
+805, if def if return for in for in if for in if
+806, def return if else def return def for in if return False return True for in if else while for in if if not break if else
+807, def return if else def return def for in if return False return True for in if else while for in if if not break if else
+808, for in if while while and
+810, for in
+812, lambda def for in return if else while if else
+816, lambda def for in return if else while if else
+817, for in if
+820, for in if
+821, for in if if if else
+822, lambda for in for in if for in lambda for in for in while and if else
+825, lambda for in while
+831, lambda for in for in for in
+832, import def if return if return if return def if return if return if return def for in if continue if break for in if continue if break for in if if return True else return False for in if if for in if else
+835, for in for in for in for in for in for in for in if else for in for in for in if and for in
+837, lambda for in for in for in for in for in for in if not or for in
+839, for in for in while for in if not in if else for in if not in
+841, for in for in while for in if not in if else for in if not in
+844, for in if while None for in
+845, for in lambda for in if break if
+847, from import if
+849, for in while if not break
+851, for in while if not break
+852, for in for in for in for in
+858, for in if in else if and not
+859, for in if else
+860, for in if else
+861, for in if else
+862, if elif if else else for in if else
+863, lambda lambda for in lambda lambda for in for in
+864, for in if break if if if else
+867, lambda for in if else def lambda for in for in if elif else return if else
+868, for in for in if for in if and if else
+869, def for in return
+870, def for in return
+871, def for in return
+872, def for in return
+873, for in for in for in if
+875, for in for in for in if
+876, for in for in for in if
+884, def while return lambda for in lambda
+887, while if elif for in and
+888, for in
+890, for in
+892, for in
+893, lambda for in def while return for in if for in if
+894, for in if for in
+895, for in for in while for in if
+897, while def if return if return if return if return if return if return return for in while while and if and else
+898, for in if in else for in for in if and for in pass else for in
+899, while if
+900, for in if elif
+902, for in for in and if else
+907, for in if and if else
+908, for in for in if
+909, def lambda for in for in for in if else for in
+910, for in for in for in for in lambda True if and not else
+911, if or or or else
+913, for in for in
+914, def if return if return if return if return return for in for in if else for in for in for in if if
+915, while for in if break
+916, for in if else for in for in if not break
+919, import for in for in for in for in for in if and else
+920, for in for in if and
+922, for in
+924, for in
+926, from import for in
+928, from import def return for in for in if for in if in and continue for in if not in or and del for in
+929, for in for in for in for in for in if and if if if
+931, if or
+932, for in for in if break if for in for in else
+933, for in for in if break if for in for in else
+934, for in for in if break if for in for in else
+935, if if else
+936, if if else
+937, if if else
+938, from import def while and if if return return for in if continue if else
+939, for in for in if elif
+940, if else while and
+944, for in for in for in for in
+946, for in if if break else
+948, import for in while and
+950, import for in while and
+951, import for in while and
+952, if for in else
+953, if for in else
+954, for in if and break for in if not or and
+956, for in if and break for in if not or and
+957, for in while and if
+959, if else for in for in
+960, from import lambda while
+961, for in for in for in if if
+962, for in for in if if break else
+963, def if not in else def if return else return for in if else for in if while if if
+964, def if not in else def if return else return for in if else for in if while if if
+965, for in
+975, from import for in for in if else
+976, for in for in for in if
+977, lambda if or else
+978, for in while
+980, lambda for in if while and for in
+981, for in lambda lambda if elif else for in
+982, if for in for in while False for in if True if not for in if
+984, for in for in
+985, lambda for in if and
+988, for in for in if not in if
+989, for in for in for in if and and else
+990, from import as for in for in if and if and for in
+991, def while return while
+992, if else
+993, from import for in for in for in lambda for in for in if for in for in if break if
+994, from import for in for in for in lambda for in for in if for in for in if break if
+995, from import from import def for in lambda while if else if
+996, for in def for in yield yield for in yield yield for in if or break else while for in if continue if elif for in
+998, and
+999, for in lambda
