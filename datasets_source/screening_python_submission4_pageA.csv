@@ -1,3 +1,4 @@
+id,day,author,problem,language,ac,len,word,source,token,time,memory,
 23413326,2016-12-30 08:52:00,r.mustapha.amine,4A - Watermelon,Python 3,Accepted,1,16,"print ( ""YNEOS"" [ 2 ** int ( input ())% 24 < 9 :: 2 ])",kwd pun str pun lit pun pln pun pln pun lit pun lit pun lit pun,154 ms,4500 KB
 42820225,2018-09-13 08:50:00,abhichomal,4A - Watermelon,Python 3,Accepted,1,14,print ( 'YNEOS' [(- 2 )** int ( input ())< 5 :: 2 ]),kwd pun str pun lit pun pln pun pln pun lit pun lit pun,248 ms,0 KB
 52421801,2019-04-06 20:27:00,Rabi02,4A - Watermelon,Python 3,Accepted,1,16,print ( 'YNEOS' [ 2 ** int ( input ())% 24 < 9 :: 2 ]),kwd pun str pun lit pun pln pun pln pun lit pun lit pun lit pun,278 ms,0 KB

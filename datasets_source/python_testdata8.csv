@@ -1,0 +1,2 @@
+id,day,author,problem,language,ac,len,word,source,token,time,memory
+78657658,2020-05-01 16:33:00,amitbhosale1234567890,977A - Wrong Subtraction,Python 3,Accepted,3,38,"x , y = map ( int , input (). split ()) for  _  in  range ( y ):  x = x - 1   if  x % 10   else  x // 10 print ( x )",pln pun pln pun pln pun pln pun pln pun pln pun kwd pln kwd pln pun pln pun pln pun pln pun lit pln kwd pln pun lit pln kwd pln pun lit kwd pun pln pun,109 ms,0 KB

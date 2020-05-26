@@ -33,7 +33,7 @@ baseurl = 'https://codeforces.com/problemset/'
 #ここから問題を選択してidを集める
 #################################
 #手書き
-submission = "1348"
+submission = "268"
 page = "A"
 #################################
 
