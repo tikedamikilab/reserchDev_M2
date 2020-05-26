@@ -16,10 +16,10 @@ import csv
 #RESULT_FILE_PATH = "./output/similarity_calc_result.csv"
 
 # DATASET_FILE_PATH = "./datasets_source/python_testdata6.csv"
-# DATASET_FILE_PATH = "./datasets_source/screening_python_submission1348_pageA.csv"
-DATASET_FILE_PATH = "./datasets_source/python_problemA.csv"
+DATASET_FILE_PATH = "./datasets_source/screening_python_submission1348_pageA.csv"
+# DATASET_FILE_PATH = "./datasets_source/python_problemA.csv"
 
-dataset = pandas.read_csv(DATASET_FILE_PATH)
+dataset = pandas.read_csv(DATASET_FILE_PATH, encoding='utf-8')
 dataset = dataset[0:10000]
 
 confidence = 0.0
@@ -28,7 +28,7 @@ confidence = 0.0
 # ソースコード
 input_dataset = numpy.array(dataset["source"])
 #設定
-tf_idf_vectorizer = TfidfVectorizer(analyzer="word", ngram_range=(1, 1), min_df=1, stop_words="english")
+tf_idf_vectorizer = TfidfVectorizer(max_df = 0.95, min_df = 0.05)
 #cipy.sparse.csr.csr_matrix型の出力
 tf_idf_vector = tf_idf_vectorizer.fit_transform(input_dataset)
 
