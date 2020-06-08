@@ -4,6 +4,8 @@
 # 65612362,Nov/24/2019 03:24,deodeo,4A - Watermelon,Perl,Accepted,92 ms,0 KB,2019-11-24 03:24:00
 #
 # 複数回acがあるときは，最後のac
+# 
+# ソースコードを全部集めるやつ
 # -*- coding:utf8  -*-
 
 from datetime import datetime as dt
