@@ -72,8 +72,8 @@ def makeproblemtext(submission, page = 'A', folder = 'datasets_problemText'):
 
     with open('./'+ folder +'/scraping6.csv', 'a',newline='',encoding="utf-8") as f:
         writer = csv.writer(f)
-        writer.writerow([submission , ' '.join(text_problem), ' '.join(text_input), ' '.join(text_output), ' '.join(text_note)])
+        writer.writerow([submission , ' '.join(text_problem), ' '.join(text_input), ' '.join(text_output)])
 
 if __name__ == '__main__':
     for i in range(1, 1000):
-        makeproblemtext(i, page='C')
+        makeproblemtext(i, page='A')
