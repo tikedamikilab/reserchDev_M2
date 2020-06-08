@@ -37,4 +37,5 @@ if __name__ == "__main__":
     for i in range(1000):
         indexList = input_datasets["cos"][i].strip('['']').split(',')
         problemID = input_datasets["problemID"][i]
+        print(problemID)
         cos_check2(indexList, problemID)
